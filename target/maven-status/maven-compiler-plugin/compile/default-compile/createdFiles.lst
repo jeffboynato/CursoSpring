@@ -1,0 +1,4 @@
+br\com\JMSSistemas\ApplicationStart.class
+br\com\JMSSistemas\domain\Cliente.class
+br\com\JMSSistemas\controller\ClienteController.class
+br\com\JMSSistemas\util\DateUtil.class
