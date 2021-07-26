@@ -24,7 +24,7 @@ public class ClienteController {
     //localhost:8080/cliente/list
     @GetMapping(path = "list")
     public List<Cliente> list(){
-        log.info(dateUtil.formatLocalDateTimeToDatabaseStyle(LocalDateTime.now()));
+    	log.info(dateUtil.formatLocalDateTimeToDatabaseStyle(LocalDateTime.now()));
         return asList (new Cliente("Jefersson"), new Cliente(" & Tina"));
     }
 
