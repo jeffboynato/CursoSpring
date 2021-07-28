@@ -1,21 +1,13 @@
 package br.com.JMSSistemas.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
 public class Cliente {
+	
+	private Long id;
+    private String nome;
 
-    private String Cliente;
-
-    public Cliente(String cliente) {
-        Cliente = cliente;
-    }
-
-    public Cliente() {
-    }
-
-    public String getCliente() {
-        return Cliente;
-    }
-
-    public void setCliente(String cliente) {
-        Cliente = cliente;
-    }
 }
